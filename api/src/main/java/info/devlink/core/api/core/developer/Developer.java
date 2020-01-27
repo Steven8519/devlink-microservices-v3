@@ -1,29 +1,32 @@
 package info.devlink.core.api.core.developer;
 
 public class Developer {
-    private final String developerId;
+    private final int developerId;
     private final String firstName;
     private final String lastName;
     private final String jobTitle;
+    private final int companyNumber;
     private final String serviceAddress;
 
-    public Developer(int developerId, String s, int i, String serviceAddress) {
-        this.developerId = null;
+    public Developer() {
+        developerId = 0;
         firstName = null;
         lastName = null;
         jobTitle = null;
-        this.serviceAddress = null;
+        companyNumber = 0;
+        serviceAddress = null;
     }
 
-    public Developer(String developerId, String firstName, String lastName, String jobTitle, String serviceAddress) {
+    public Developer(int developerId, String firstName, String lastName, String jobTitle, int companyNumber, String serviceAddress) {
         this.developerId = developerId;
         this.firstName = firstName;
         this.lastName = lastName;
         this.jobTitle = jobTitle;
+        this.companyNumber = companyNumber;
         this.serviceAddress = serviceAddress;
     }
 
-    public String getDeveloperId() {
+    public int getDeveloperId() {
         return developerId;
     }
 
@@ -37,6 +40,10 @@ public class Developer {
 
     public String getJobTitle() {
         return jobTitle;
+    }
+
+    public int getCompanyNumber() {
+        return companyNumber;
     }
 
     public String getServiceAddress() {

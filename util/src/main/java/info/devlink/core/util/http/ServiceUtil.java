@@ -12,10 +12,10 @@ import java.net.UnknownHostException;
 
 @Component
 public class ServiceUtil {
+
     private static final Logger LOG = LoggerFactory.getLogger(ServiceUtil.class);
 
     private final String port;
-
     private String serviceAddress = null;
 
     @Autowired
@@ -47,7 +47,6 @@ public class ServiceUtil {
             return "unknown IP address";
         }
     }
-
 }
 
 
