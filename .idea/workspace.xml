@@ -23,60 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9851671f-3df7-4fc6-89f5-696a5c50ea3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/developer-service/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/ContactSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/ContactSummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperAggregate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/RecruiterSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/RecruiterSummary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/ContactService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/developer/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/developer/Developer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/recruiter/Recruiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/recruiter/Recruiter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/ContactSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/ContactSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/RecruiterSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/RecruiterSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/ContactService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/Recruiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/Recruiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/test/info/devlink/core/compositeservice/CompositeServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/test/info/devlink/core/compositeservice/CompositeServiceApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/classes/info.devlink.core.compositeservice.CompositeServiceApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/packages/info.devlink.core.compositeservice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/TEST-info.devlink.core.compositeservice.CompositeServiceApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/test/java/info/devlink/core/compositeservice/CompositeServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/test/java/info/devlink/core/compositeservice/CompositeServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580012427943</updated>
       <workItem from="1580012429877" duration="6020000" />
-      <workItem from="1580018966154" duration="28814000" />
+      <workItem from="1580018966154" duration="29781000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1580100057650</created>
@@ -307,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580100057650</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding a docker file to each microservice.">
+      <created>1580184383451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580184383451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +271,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api test" />
-    <option name="LAST_COMMIT_MESSAGE" value="api test" />
+    <MESSAGE value="adding a docker file to each microservice." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding a docker file to each microservice." />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="151" key="#/Users/stevenmcdonald/Desktop/devlink-microservices-v3/api/build.gradle" timestamp="1580019626773">
@@ -334,10 +291,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580012567592" />
-    <state x="257" y="127" key="CommitChangelistDialog2" timestamp="1580100056559">
+    <state x="257" y="127" key="CommitChangelistDialog2" timestamp="1580184382167">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="257" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580100056559" />
+    <state x="257" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580184382167" />
     <state x="659" y="425" key="Github.ShareDialog" timestamp="1580022247639">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -382,10 +339,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1580019817859" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1580100059687">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1580184385552">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580100059687" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580184385552" />
     <state x="544" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580171326362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
