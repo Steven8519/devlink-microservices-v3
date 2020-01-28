@@ -1,21 +1,21 @@
 package info.devlink.core.api.core.contact;
 
 public class Contact {
-    private final String developerId;
-    private final String contactId;
+    private final int developerId;
+    private final int contactId;
     private final String email;
     private final String phoneNumber;
     private final String serviceAddress;
 
     public Contact() {
-        developerId = null;
-        contactId = null;
+        developerId = 0;
+        contactId = 0;
         email = null;
         phoneNumber = null;
         serviceAddress = null;
     }
 
-    public Contact(String developerId, String contactId, String email, String phoneNumber, String serviceAddress) {
+    public Contact(int developerId, int contactId, String email, String phoneNumber, String serviceAddress) {
         this.developerId = developerId;
         this.contactId = contactId;
         this.email = email;
@@ -23,11 +23,11 @@ public class Contact {
         this.serviceAddress = serviceAddress;
     }
 
-    public String getDeveloperId() {
+    public int getDeveloperId() {
         return developerId;
     }
 
-    public String getContactId() {
+    public int getContactId() {
         return contactId;
     }
 

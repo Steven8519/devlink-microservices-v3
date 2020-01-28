@@ -4,3 +4,9 @@ logging:
   level:
     root: INFO
     info.devlink.core: DEBUG
+
+---
+spring:
+  profiles: docker
+server:
+  port: 8080

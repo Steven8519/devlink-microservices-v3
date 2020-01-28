@@ -1,27 +1,25 @@
 package info.devlink.core.api.composite.developer;
 
-import info.devlink.core.api.core.developer.Developer;
-
 public class ContactSummary {
 
-    private final String contactId;
-    private final Developer developer;
+    private final int contactId;
+    private final String info;
 
     public ContactSummary() {
-        contactId = null;
-        developer = null;
+        contactId = 0;
+        info = null;
     }
 
-    public ContactSummary(String contactId, Developer developer) {
+    public ContactSummary(int contactId, String info) {
         this.contactId = contactId;
-        this.developer = developer;
+        this.info = info;
     }
 
-    public String getContactId() {
+    public int getContactId() {
         return contactId;
     }
 
-    public Developer getDeveloper() {
-        return developer;
+    public String  getInfo() {
+        return info;
     }
 }

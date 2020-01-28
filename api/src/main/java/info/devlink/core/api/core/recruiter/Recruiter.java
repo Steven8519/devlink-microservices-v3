@@ -1,21 +1,21 @@
 package info.devlink.core.api.core.recruiter;
 
 public class Recruiter {
-    private final String developerId;
-    private final String recruiterId;
+    private final int developerId;
+    private final int recruiterId;
     private final String recruiterName;
     private final String companyWorkFor;
     private final String serviceAddress;
 
     public Recruiter() {
-        developerId = null;
-        recruiterId = null;
+        developerId = 0;
+        recruiterId = 0;
         recruiterName = null;
         companyWorkFor = null;
         serviceAddress = null;
     }
 
-    public Recruiter(String developerId, String recruiterId, String recruiterName, String companyWorkFor, String serviceAddress) {
+    public Recruiter(int developerId, int recruiterId, String recruiterName, String companyWorkFor, String serviceAddress) {
         this.developerId = developerId;
         this.recruiterId = recruiterId;
         this.recruiterName = recruiterName;
@@ -23,11 +23,11 @@ public class Recruiter {
         this.serviceAddress = serviceAddress;
     }
 
-    public String getDeveloperId() {
+    public int getDeveloperId() {
         return developerId;
     }
 
-    public String getRecruiterId() {
+    public int getRecruiterId() {
         return recruiterId;
     }
 

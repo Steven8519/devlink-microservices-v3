@@ -1,15 +1,15 @@
 package info.devlink.core.api.composite.developer;
 
 public class RecruiterSummary {
-    private final String recruiterId;
+    private final int recruiterId;
     private final String recruiterInfo;
 
-    public RecruiterSummary(String recruiterId, String recruiterInfo) {
+    public RecruiterSummary(int recruiterId, String recruiterInfo) {
         this.recruiterId = recruiterId;
         this.recruiterInfo = recruiterInfo;
     }
 
-    public String getRecruiterId() {
+    public int getRecruiterId() {
         return recruiterId;
     }
 
