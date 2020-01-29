@@ -23,9 +23,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9851671f-3df7-4fc6-89f5-696a5c50ea3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/resources/main/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/test/info/devlink/core/contactservice/ContactServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/test/info/devlink/core/contactservice/ContactServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/classes/info.devlink.core.contactservice.ContactServiceApplicationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/packages/info.devlink.core.contactservice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/TEST-info.devlink.core.contactservice.ContactServiceApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/src/test/java/info/devlink/core/contactservice/ContactServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/src/test/java/info/devlink/core/contactservice/ContactServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/src/test/java/info/devlink/core/recruiterservice/RecruiterServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/test/java/info/devlink/core/recruiterservice/RecruiterServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +141,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -210,13 +243,13 @@
     </configuration>
     <list>
       <item itemvalue="Gradle./Users/stevenmcdonald/Desktop/devlink-microservices-v3/api/build.gradle" />
+      <item itemvalue="Gradle.CompositeServiceApplicationTests" />
       <item itemvalue="Spring Boot.ApiApplication" />
       <item itemvalue="Spring Boot.CompositeServiceApplication" />
       <item itemvalue="Spring Boot.ContactServiceApplication" />
       <item itemvalue="Spring Boot.DeveloperServiceApplication" />
       <item itemvalue="Spring Boot.RecruiterServiceApplication" />
       <item itemvalue="Spring Boot.UtilApplication" />
-      <item itemvalue="Gradle.CompositeServiceApplicationTests" />
     </list>
     <recent_temporary>
       <list>
@@ -248,6 +281,7 @@
       <updated>1580012427943</updated>
       <workItem from="1580012429877" duration="6020000" />
       <workItem from="1580018966154" duration="29781000" />
+      <workItem from="1580323487842" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1580100057650</created>
