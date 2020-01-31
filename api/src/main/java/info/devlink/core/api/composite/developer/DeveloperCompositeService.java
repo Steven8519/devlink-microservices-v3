@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiResponses;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@Api(description = "REST API for composite developer information.")
+@Api
 public interface DeveloperCompositeService {
 
     /**
@@ -17,7 +17,7 @@ public interface DeveloperCompositeService {
      * @return the composite developer info, if found, else null
      */
     @ApiOperation(
-            value = "${api.developer-composite.get-composite-developer.info}",
+            value = "${api.developer-composite.get-composite-developer.developer}",
             notes = "${api.product-composite.get-composite-product.notes}")
     @ApiResponses(value = {
             @ApiResponse(code = 400, message = "Bad Request, invalid format of the request. See response message for more information."),

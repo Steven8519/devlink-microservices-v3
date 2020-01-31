@@ -24,10 +24,6 @@ import static springfox.documentation.builders.RequestHandlerSelectors.basePacka
 @ComponentScan("info.devlink.core")
 public class CompositeServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(CompositeServiceApplication.class, args);
-	}
-
 	@Value("${api.common.version}")           String apiVersion;
 	@Value("${api.common.title}")             String apiTitle;
 	@Value("${api.common.description}")       String apiDescription;
@@ -55,7 +51,7 @@ public class CompositeServiceApplication {
 
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(basePackage("se.magnus.microservices.composite.product"))
+				.apis(basePackage("info.devlink.core.composite.developer"))
 				.paths(PathSelectors.any())
 				.build()
 				.globalResponseMessage(GET, emptyList())
@@ -69,6 +65,10 @@ public class CompositeServiceApplication {
 						apiLicenseUrl,
 						emptyList()
 				));
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(CompositeServiceApplication.class, args);
 	}
 
 }
