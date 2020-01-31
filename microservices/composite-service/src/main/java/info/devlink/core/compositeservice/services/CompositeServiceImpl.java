@@ -6,6 +6,7 @@ import info.devlink.core.api.core.developer.Developer;
 import info.devlink.core.api.core.recruiter.Recruiter;
 import info.devlink.core.util.exceptions.NotFoundException;
 import info.devlink.core.util.http.ServiceUtil;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class CompositeServiceImpl implements DeveloperCompositeService {
         this.integration = integration;
     }
 
+    @ApiOperation(value = "${api.developer-composite.get-composite-developer.info}", notes = "${api.product-composite.get-composite-product.notes}")
     @Override
     public DeveloperAggregate getDeveloper(int developerId) {
         Developer developer = integration.getDeveloper(developerId);

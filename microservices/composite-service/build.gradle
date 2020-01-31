@@ -15,11 +15,6 @@ apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
-apply plugin: 'io.spring.dependency-management'
-
 group = 'info.devlink.core'
 version = '1.0'
 sourceCompatibility = '11'
@@ -37,6 +32,8 @@ dependencies {
 	implementation('io.springfox:springfox-swagger2:3.0.0-SNAPSHOT')
 	implementation('io.springfox:springfox-swagger-ui:3.0.0-SNAPSHOT')
 	implementation('io.springfox:springfox-spring-webflux:3.0.0-SNAPSHOT')
+	compile group: 'com.google.guava', name: 'guava', version: '20.0'
+	compile group: 'org.springframework.plugin', name: 'spring-plugin-core', version: '2.0.0.RELEASE'
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	testImplementation('io.projectreactor:reactor-test')
 }

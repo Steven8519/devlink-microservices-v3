@@ -33,40 +33,32 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/resources/main/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/test/info/devlink/core/contactservice/ContactServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/test/info/devlink/core/contactservice/ContactServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/classes/info.devlink.core.contactservice.ContactServiceApplicationTests.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/packages/info.devlink.core.contactservice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/TEST-info.devlink.core.contactservice.ContactServiceApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/contact-service/src/test/java/info/devlink/core/contactservice/ContactServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/src/test/java/info/devlink/core/contactservice/ContactServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/src/test/java/info/devlink/core/recruiterservice/RecruiterServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/test/java/info/devlink/core/recruiterservice/RecruiterServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/util/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/libs/recruiter-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/libs/recruiter-service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/reports/tests/test/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/api">
@@ -102,6 +94,9 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="devlink-microservices-v3" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -281,7 +276,7 @@
       <updated>1580012427943</updated>
       <workItem from="1580012429877" duration="6020000" />
       <workItem from="1580018966154" duration="29781000" />
-      <workItem from="1580323487842" duration="651000" />
+      <workItem from="1580323487842" duration="13291000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1580100057650</created>
@@ -313,14 +308,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="535" y="151" key="#/Users/stevenmcdonald/Desktop/devlink-microservices-v3/api/build.gradle/0.0.1680.1050@0.0.1680.1050" timestamp="1580019626773" />
+    <state x="440" y="190" key="#Auto_Import" timestamp="1580353059634">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Auto_Import/0.0.1680.1050@0.0.1680.1050" timestamp="1580353059634" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580022337611">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580022337611" />
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1580114075370">
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1580342896805">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580114075370" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580342896805" />
     <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580012567592">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -337,22 +336,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="431" y="238" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580022256624" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1580173153897">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1580440696455">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580173153897" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1580173153896">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696455" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1580440696453">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580173153896" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1580173153896">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696453" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1580440696452">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580173153896" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1580173153897">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696452" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1580440696454">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580173153897" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696454" />
     <state width="1638" height="295" key="GridCell.Tab.1.bottom" timestamp="1580173137079">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
