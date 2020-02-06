@@ -1,19 +1,43 @@
 package info.devlink.core.api.core.recruiter;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 public interface RecruiterService {
     /**
-     * Sample usage: curl $HOST:$PORT/recruiter?developerId=1
+     * Sample usage:
      *
-     * @param developerId
+     *
+     * @param body
+     * @return
+     */
+    @PostMapping(
+            value    = "/recruiter",
+            consumes = "application/json",
+            produces = "application/json")
+    Recruiter createRecruiter(@RequestBody Recruiter body);
+
+    /**
+     * Sample usage:
+     *
+     * curl $HOST:$PORT/recruiter?recruiterId=1
+     *
+     * @param recruiterId
      * @return
      */
     @GetMapping(
             value    = "/recruiter",
             produces = "application/json")
-    List<Recruiter> getRecruiters(@RequestParam(value = "developerId", required = true) int developerId);
+    List<Recruiter> getRecruiter(@RequestParam(value = "recruiterId", required = true) int recruiterId);
+
+    /**
+     * Sample usage:
+     *
+     * curl -X DELETE $HOST:$PORT/recruiter?recruiterId=1
+     *
+     * @param recruiterId
+     */
+    @DeleteMapping(value = "/recruiter")
+    void deleteRecruiters(@RequestParam(value = "recruiterId", required = true)  int recruiterId);
 }

@@ -23,6 +23,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9851671f-3df7-4fc6-89f5-696a5c50ea3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/persistence/ContactEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/persistence/ContactRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/persistence/ContactRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/services/ContactMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/services/ContactMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/classes/java/main/info/devlink/core/contactservice/services/ContactServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/generated/sources/annotationProcessor/java/main/info/devlink/core/contactservice/persistence/ContactRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/build/generated/sources/annotationProcessor/java/main/info/devlink/core/contactservice/services/ContactMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/src/main/java/info/devlink/core/contactservice/persistence/ContactEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/src/main/java/info/devlink/core/contactservice/persistence/ContactRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/src/main/java/info/devlink/core/contactservice/services/ContactMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/contact-service/src/main/java/info/devlink/core/contactservice/services/ContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/persistence/DeveloperEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/persistence/DeveloperRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/build/generated/sources/annotationProcessor/java/main/info/devlink/core/developerservice/services/DeveloperMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/src/main/java/info/devlink/core/developerservice/persistence/DeveloperEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/src/main/java/info/devlink/core/developerservice/persistence/DeveloperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/developer-service/src/main/java/info/devlink/core/developerservice/services/DeveloperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/classes/java/main/info/devlink/core/recruiterservice/persistence/RecruiterEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/classes/java/main/info/devlink/core/recruiterservice/persistence/RecruiterRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/classes/java/main/info/devlink/core/recruiterservice/services/RecruiterMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/classes/java/main/info/devlink/core/recruiterservice/services/RecruiterMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/classes/java/main/info/devlink/core/recruiterservice/services/RecruiterServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/generated/sources/annotationProcessor/java/main/info/devlink/core/recruiterservice/services/RecruiterMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/main/java/info/devlink/core/recruiterservice/persistence/RecruiterEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/main/java/info/devlink/core/recruiterservice/persistence/RecruiterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/main/java/info/devlink/core/recruiterservice/services/RecruiterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservices/recruiter-service/src/main/java/info/devlink/core/recruiterservice/services/RecruiterServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -34,23 +65,54 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/ContactSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/ContactSummary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperAggregate.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperAggregate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/DeveloperCompositeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/RecruiterSummary.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/composite/developer/RecruiterSummary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/Contact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/contact/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/developer/DeveloperService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/developer/DeveloperService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/recruiter/RecruiterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/classes/java/main/info/devlink/core/api/core/recruiter/RecruiterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/ContactSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/ContactSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperAggregate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/DeveloperCompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/RecruiterSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/composite/developer/RecruiterSummary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/contact/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/developer/DeveloperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/developer/DeveloperService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/Recruiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/Recruiter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/RecruiterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/info/devlink/core/api/core/recruiter/RecruiterService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/CompositeServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeIntegration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/classes/java/main/info/devlink/core/compositeservice/services/CompositeServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/libs/composite-service-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/CompositeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeIntegration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/composite-service/src/main/java/info/devlink/core/compositeservice/services/CompositeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/libs/contact-service-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/contact-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/classes/java/main/info/devlink/core/developerservice/services/DeveloperServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/libs/developer-service-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/build/tmp/bootJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/developer-service/src/main/java/info/devlink/core/developerservice/services/DeveloperServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/developer-service/src/main/java/info/devlink/core/developerservice/services/DeveloperServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/libs/recruiter-service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/libs/recruiter-service-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservices/recruiter-service/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/recruiter-service/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/build/libs/util-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/util/build/libs/util-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/util/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +205,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -273,7 +336,9 @@
       <updated>1580012427943</updated>
       <workItem from="1580012429877" duration="6020000" />
       <workItem from="1580018966154" duration="29781000" />
-      <workItem from="1580323487842" duration="15371000" />
+      <workItem from="1580323487842" duration="40224000" />
+      <workItem from="1580954411857" duration="71000" />
+      <workItem from="1580954498246" duration="8018000" />
     </task>
     <task id="LOCAL-00001" summary="api test">
       <created>1580100057650</created>
@@ -296,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580444971680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix">
+      <created>1580447108747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580447108747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,33 +378,50 @@
     <MESSAGE value="api test" />
     <MESSAGE value="adding a docker file to each microservice." />
     <MESSAGE value="added swagger for api documentation." />
-    <option name="LAST_COMMIT_MESSAGE" value="added swagger for api documentation." />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="151" key="#/Users/stevenmcdonald/Desktop/devlink-microservices-v3/api/build.gradle" timestamp="1580019626773">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="535" y="151" key="#/Users/stevenmcdonald/Desktop/devlink-microservices-v3/api/build.gradle/0.0.1680.1050@0.0.1680.1050" timestamp="1580019626773" />
+    <state x="440" y="190" key="#Assign_Data_Sources" timestamp="1580953910772">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Assign_Data_Sources/0.0.1680.1050@0.0.1680.1050" timestamp="1580953910772" />
     <state x="440" y="190" key="#Auto_Import" timestamp="1580353059634">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="190" key="#Auto_Import/0.0.1680.1050@0.0.1680.1050" timestamp="1580353059634" />
+    <state x="440" y="190" key="#Notifications" timestamp="1580954553356">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1580954553356" />
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580953638300">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="298" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580953638300" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580022337611">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580022337611" />
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1580342896805">
+    <state x="530" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580952041147">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580342896805" />
+    <state x="530" y="335" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580952041147" />
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1580953985284">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1580953985284" />
     <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580012567592">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="689" y="432" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580012567592" />
-    <state x="257" y="127" key="CommitChangelistDialog2" timestamp="1580444968988">
+    <state x="257" y="127" key="CommitChangelistDialog2" timestamp="1580447105937">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="257" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580444968988" />
+    <state x="257" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1580447105937" />
     <state x="659" y="425" key="Github.ShareDialog" timestamp="1580022247639">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -341,22 +430,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="431" y="238" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580022256624" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1580440696455">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1580954402126">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696455" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1580440696453">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1580954402126" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1580954402125">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696453" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1580440696452">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1580954402125" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1580954402124">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696452" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1580440696454">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1580954402124" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1580954402125">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580440696454" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580954402125" />
     <state width="1638" height="295" key="GridCell.Tab.1.bottom" timestamp="1580173137079">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -373,14 +462,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1580173137078" />
-    <state x="328" y="106" key="SettingsEditor" timestamp="1580019817859">
+    <state x="328" y="106" key="SettingsEditor" timestamp="1580954482048">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1580019817859" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1580444975278">
+    <state x="328" y="106" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1580954482048" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1580447111167">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580444975278" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1580447111167" />
+    <state x="461" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1580954558237">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="461" y="225" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1580954558237" />
     <state x="544" y="426" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1580171326362">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

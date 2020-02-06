@@ -10,13 +10,13 @@ import org.springframework.web.client.RestTemplate;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
-import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2WebFlux;
 
 import static java.util.Collections.emptyList;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 import static springfox.documentation.builders.RequestHandlerSelectors.basePackage;
+import static springfox.documentation.spi.DocumentationType.SWAGGER_2;
 
 
 @EnableSwagger2WebFlux
@@ -49,7 +49,7 @@ public class CompositeServiceApplication {
 	@Bean
 	public Docket api() {
 
-		return new Docket(DocumentationType.SWAGGER_2)
+		return new Docket(SWAGGER_2)
 				.select()
 				.apis(basePackage("info.devlink.core.composite.developer"))
 				.paths(PathSelectors.any())

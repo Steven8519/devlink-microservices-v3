@@ -36,15 +36,19 @@ public class CompositeServiceImpl implements DeveloperCompositeService {
     private DeveloperAggregate createDeveloperAggregate(Developer developer, List<Recruiter> recruiters, List<Contact> contacts, String serviceAddress) {
 
         int developerId = developer.getDeveloperId();
+        String firstName = developer.getFirstName();
+        String lastName = developer.getLastName();
+        String jobTitle = developer.getJobTitle();
 
         List<RecruiterSummary> recruiterSummaries = (recruiters == null) ? null :
                 recruiters.stream()
-                        .map(r -> new RecruiterSummary(r.getRecruiterId(), r.getRecruiterName()))
+                        .map(recruiter -> new RecruiterSummary(recruiter.getRecruiterId(), recruiter.getRecruiterName(),
+                                recruiter.getCompanyWorkFor()))
                         .collect(Collectors.toList());
 
         List<ContactSummary> contactSummaries = (contacts == null)  ? null :
                 contacts.stream()
-                        .map(contact -> new ContactSummary(contact.getContactId(), contact.getEmail()))
+                        .map(contact -> new ContactSummary(contact.getContactId(), contact.getEmail(), contact.getPhoneNumber()))
                         .collect(Collectors.toList());
 
         // 4. Create info regarding the involved microservices addresses
@@ -53,6 +57,21 @@ public class CompositeServiceImpl implements DeveloperCompositeService {
         String recruiterAddress = (recruiters != null && recruiters.size() > 0) ? recruiters.get(0).getServiceAddress() : "";
         ServiceAddress serviceAddresses = new ServiceAddress(serviceAddress, developerAddress, contactAddress, recruiterAddress);
 
-        return new DeveloperAggregate(developerId, recruiterSummaries, contactSummaries, serviceAddresses);
+        return new DeveloperAggregate(developerId, firstName, lastName, jobTitle, recruiterSummaries, contactSummaries, serviceAddresses);
+    }
+
+    @Override
+    public void createCompositeDeveloper(DeveloperAggregate body) {
+
+    }
+
+    @Override
+    public DeveloperAggregate getCompositeDeveloper(int developerId) {
+        return null;
+    }
+
+    @Override
+    public void deleteCompositeProduct(int developerId) {
+
     }
 }

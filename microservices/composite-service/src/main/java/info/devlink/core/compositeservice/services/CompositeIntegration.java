@@ -62,14 +62,19 @@ public class CompositeIntegration implements DeveloperService, RecruiterService,
     }
 
     @Override
+    public Contact createContact(Contact body) {
+        return null;
+    }
+
+    @Override
     public List<Contact> getContacts(int developerId) {
-        try {
+            try {
             String url = contactServiceUrl + developerId;
 
-            LOG.debug("Will call getReviews API on URL: {}", url);
+            LOG.debug("Will call getContacts API on URL: {}", url);
             List<Contact> contacts = restTemplate.exchange(url, GET, null, new ParameterizedTypeReference<List<Contact>>() {}).getBody();
 
-            LOG.debug("Found {} reviews for a product with id: {}", contacts.size(), developerId);
+            LOG.debug("Found {} contacts for a product with id: {}", contacts.size(), developerId);
             return contacts;
 
         } catch (Exception ex) {
@@ -79,13 +84,47 @@ public class CompositeIntegration implements DeveloperService, RecruiterService,
     }
 
     @Override
+    public void deleteContacts(int contactId) {
+
+    }
+
+    private String getErrorMessage(HttpClientErrorException ex) {
+        try {
+            return mapper.readValue(ex.getResponseBodyAsString(), HttpErrorInfo.class).getMessage();
+        } catch (IOException ioex) {
+            return ex.getMessage();
+        }
+    }
+
+    public List<Recruiter> getRecruiters(int developerId) {
+
+        try {
+            String url = recruiterServiceUrl + developerId;
+
+            LOG.debug("Will call getRecommendations API on URL: {}", url);
+            List<Recruiter> recruiters = restTemplate.exchange(url, GET, null, new ParameterizedTypeReference<List<Recruiter>>() {}).getBody();
+
+            LOG.debug("Found {} recommendations for a product with id: {}", recruiters.size(), developerId);
+            return recruiters;
+
+        } catch (Exception ex) {
+            LOG.warn("Got an exception while requesting recommendations, return zero recommendations: {}", ex.getMessage());
+            return new ArrayList<>();
+        }
+    }
+
+    @Override
+    public Developer createDeveloper(Developer body) {
+        return null;
+    }
+
+    @Override
     public Developer getDeveloper(int developerId) {
         try {
             String url = developerServiceUrl + developerId;
             LOG.debug("Will call getProduct API on URL: {}", url);
 
             Developer developer = restTemplate.getForObject(url, Developer.class);
-            assert developer != null;
             LOG.debug("Found a product with id: {}", developer.getDeveloperId());
 
             return developer;
@@ -96,6 +135,7 @@ public class CompositeIntegration implements DeveloperService, RecruiterService,
 
                 case NOT_FOUND:
                     throw new NotFoundException(getErrorMessage(ex));
+
 
                 case UNPROCESSABLE_ENTITY :
                     throw new InvalidInputException(getErrorMessage(ex));
@@ -108,29 +148,23 @@ public class CompositeIntegration implements DeveloperService, RecruiterService,
         }
     }
 
-    private String getErrorMessage(HttpClientErrorException ex) {
-        try {
-            return mapper.readValue(ex.getResponseBodyAsString(), HttpErrorInfo.class).getMessage();
-        } catch (IOException ioex) {
-            return ex.getMessage();
-        }
+    @Override
+    public void deleteDeveloper(int developerId) {
+
     }
 
     @Override
-    public List<Recruiter> getRecruiters(int developerId) {
-        try {
-            String url = recruiterServiceUrl + developerId;
+    public Recruiter createRecruiter(Recruiter body) {
+        return null;
+    }
 
-            LOG.debug("Will call getRecommendations API on URL: {}", url);
-            List<Recruiter> recruiters = restTemplate.exchange(url, GET, null, new ParameterizedTypeReference<List<Recruiter>>() {}).getBody();
+    @Override
+    public List<Recruiter> getRecruiter(int recruiterId) {
+        return null;
+    }
 
-            assert recruiters != null;
-            LOG.debug("Found {} recommendations for a product with id: {}", recruiters.size(), developerId);
-            return recruiters;
+    @Override
+    public void deleteRecruiters(int recruiterId) {
 
-        } catch (Exception ex) {
-            LOG.warn("Got an exception while requesting recommendations, return zero recommendations: {}", ex.getMessage());
-            return new ArrayList<>();
-        }
     }
 }
