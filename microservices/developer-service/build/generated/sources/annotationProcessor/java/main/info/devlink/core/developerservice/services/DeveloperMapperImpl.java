@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-02-06T11:19:29-0600",
+    date = "2020-02-06T12:54:20-0600",
     comments = "version: 1.3.0.Beta2, compiler: javac, environment: Java 11.0.6 (Oracle Corporation)"
 )
 @Component
@@ -20,6 +20,12 @@ public class DeveloperMapperImpl implements DeveloperMapper {
         }
 
         Developer developer = new Developer();
+
+        developer.setDeveloperId( entity.getDeveloperId() );
+        developer.setFirstName( entity.getFirstName() );
+        developer.setLastName( entity.getLastName() );
+        developer.setJobTitle( entity.getJobTitle() );
+        developer.setCompanyNumber( entity.getCompanyNumber() );
 
         return developer;
     }

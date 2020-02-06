@@ -1,12 +1,21 @@
 package info.devlink.core.api.core.developer;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
+
+@Data
+@AllArgsConstructor
+@Getter
+@Setter
 public class Developer {
-    private final int developerId;
-    private final String firstName;
-    private final String lastName;
-    private final String jobTitle;
-    private final int companyNumber;
-    private final String serviceAddress;
+    private int developerId;
+    private String firstName;
+    private String lastName;
+    private String jobTitle;
+    private int companyNumber;
+    private String serviceAddress;
 
     public Developer() {
         developerId = 0;
@@ -15,38 +24,5 @@ public class Developer {
         jobTitle = null;
         companyNumber = 0;
         serviceAddress = null;
-    }
-
-    public Developer(int developerId, String firstName, String lastName, String jobTitle, int companyNumber, String serviceAddress) {
-        this.developerId = developerId;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.jobTitle = jobTitle;
-        this.companyNumber = companyNumber;
-        this.serviceAddress = serviceAddress;
-    }
-
-    public int getDeveloperId() {
-        return developerId;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getJobTitle() {
-        return jobTitle;
-    }
-
-    public int getCompanyNumber() {
-        return companyNumber;
-    }
-
-    public String getServiceAddress() {
-        return serviceAddress;
     }
 }

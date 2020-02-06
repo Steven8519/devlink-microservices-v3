@@ -1,26 +1,13 @@
 package info.devlink.core.contactservice.persistence;
 
-import info.devlink.core.api.core.contact.Contact;
-import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import org.mapstruct.Mappings;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring")
-public interface ContactRepository {
+public interface ContactRepository extends CrudRepository<ContactEntity, Integer> {
 
-    @Mappings({
-            @Mapping(target = "serviceAddress", ignore = true)
-    })
-    Contact entityToApi(ContactEntity entity);
+    @Transactional(readOnly = true)
+    List<ContactEntity> findByDeveloperId(int developerId);
 
-    @Mappings({
-            @Mapping(target = "id", ignore = true),
-            @Mapping(target = "version", ignore = true)
-    })
-    ContactEntity apiToEntity( Contact api);
-
-    List<Contact> entityListToApiList(List<ContactEntity> entity);
-    List<ContactEntity> apiListToEntityList(List<Contact> api);
 }

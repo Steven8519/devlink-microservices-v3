@@ -4,6 +4,8 @@ import lombok.*;
 
 import javax.persistence.*;
 
+import static java.lang.String.format;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -25,5 +27,10 @@ public class ContactEntity {
     private String email;
     private String phoneNumber;
     private String serviceAddress;
+
+    @Override
+    public String toString() {
+        return format("ContactEntity: %s/%d", developerId, contactId);
+    }
 
 }
